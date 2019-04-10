@@ -21,10 +21,7 @@ badge_rooms
 end 
 
 def printer
-  batch_badge_creator(name)
-  puts badge_messages
-  end 
-  assign_rooms(name)
-  puts badge_rooms
+  puts batch_badge_creator(name)
+  puts assign_rooms(name)
 end 
 
