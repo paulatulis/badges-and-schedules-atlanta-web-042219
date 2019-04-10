@@ -23,6 +23,7 @@ end
 def printer
   batch_badge_creator(name)
   puts badge_messages
+  end 
   assign_rooms(name)
   puts badge_rooms
 end 
