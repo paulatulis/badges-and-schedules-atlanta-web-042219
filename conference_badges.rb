@@ -9,6 +9,7 @@ def batch_badge_creator(name)
   name.each do |x| 
  badge_messages << "Hello, my name is #{x}."
   end 
+  badge_messages
 end 
 
 def assign_rooms(name)
