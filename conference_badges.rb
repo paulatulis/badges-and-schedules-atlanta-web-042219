@@ -9,5 +9,10 @@ def batch_badge_creator(name)
 end 
 
 def assign_rooms(name)
-  
+  index + 1
+  "Hello, #{name}! You'll be assigned to room #{room}!"
 end 
+
+def printer
+end 
+
