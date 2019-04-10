@@ -8,7 +8,7 @@ def batch_badge_creator(name)
   badge_messages = []
   name.each do |x| 
   "Hello, my name is #{x}."
-  badge_messages = name 
+  badge_messages << name 
   badge_messages 
   end 
 end 
