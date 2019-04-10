@@ -25,4 +25,5 @@ def printer(array)
 end 
   assign_rooms(name).each {|y| puts y}
 end 
+end 
 
