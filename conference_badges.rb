@@ -20,7 +20,7 @@ end
 badge_rooms 
 end 
 
-def printer
+def printer(array)
   batch_badge_creator(name)
   puts assign_rooms(name)
 end 
