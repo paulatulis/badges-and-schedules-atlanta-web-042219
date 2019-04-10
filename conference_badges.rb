@@ -15,7 +15,7 @@ end
 def assign_rooms(name)
   badge_rooms = []
   name.each_with_index do |x, index|
-  badge_rooms << "Hello, #{name.chomp}! You'll be assigned to room #{index + 1}!"
+  badge_rooms << "Hello, #{x}! You'll be assigned to room #{index + 1}!"
 end 
 badge_rooms 
 end 
